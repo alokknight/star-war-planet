@@ -1,0 +1,95 @@
+body {
+  background-image: url("../../../background.png");
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+
+h1,
+h3,
+h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+}
+
+.list {
+  background-color: #80808061;
+  font-weight: bold;
+}
+
+span:hover {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.navBarLink:hover {
+  text-decoration: underline;
+  background-color: #302592;
+
+}
+.navBarLink{
+  font-size: 30px;
+  cursor: pointer;
+  animation-name: heart;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+
+}
+.links,
+p {
+  font-family: "Russo One", sans-serif;
+}
+
+.buttonFav {
+  background-color: #80808061;
+  border: 1px solid #80808061;
+}
+
+.buttonFav:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  text-decoration: underline;
+}
+
+#footer{
+  font-size: 14px;
+}
+
+.linkFooter {
+  text-decoration: none;
+}
+
+.linkFooter:hover {
+  background-color: black;
+}
+
+.heart{
+  font-size: 16px;
+  cursor: pointer;
+  animation-name: heart;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.blinkRed{
+  font-size: 45px;
+  cursor: pointer;
+  animation-name: heart;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes heart {
+  0%   {color: red;}
+  25%  {color: black;}
+  50%  {color: #fff;}
+  100% {color: red;}
+}
+
