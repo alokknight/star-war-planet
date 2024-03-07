@@ -1,6 +1,6 @@
 {
-  "homepage": "https://alokknight.github.io/star-war-planet",
-  "name": "star_war_planets",
+  "homepage": "https://alokknight.github.io/star-war-planets",
+  "name": "star-war-planets",
   "private": true,
   "version": "0.0.0",
   "type": "module",

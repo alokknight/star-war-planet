@@ -8,7 +8,7 @@ const UsefetchHook = (urlApi) => {
   useEffect(() => {
     setState({
       loadingSpinner: true,
-      
+
     })
 
     fetch(urlApi)

@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <HeaderNavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/star-war-planets" element={<Home />} />
           <Route path="/favourites" element={<Favourites />} />
         </Routes>
       </BrowserRouter>
