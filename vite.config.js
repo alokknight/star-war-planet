@@ -4,5 +4,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:'/star-war-planets/',
+  // server: {
+  //   proxy: {
+  //     '/api': 'https://swapi.dev',
+  //   },
+  // },
 })
 

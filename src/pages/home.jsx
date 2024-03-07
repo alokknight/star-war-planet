@@ -25,6 +25,8 @@ const Home = () => {
 
   let urlApi = `https://swapi.dev/api/planets/?page=${number}`
 
+  
+
   const { planetList, loadingSpinner } = useFetchHook(urlApi)
 
   let pages = [1, 2, 3, 4, 5, 6]
